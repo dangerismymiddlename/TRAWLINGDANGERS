@@ -1,0 +1,291 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+p {
+  font-size: 40px;
+  color: white;
+  z-index: 3;
+}
+
+.background {
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+
+.trawlingtitle {
+  z-index: 3;
+  position: absolute;
+  right: 530px;
+  top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.p1 {
+  border: 0px solid black;
+  margin-right: 900px;
+  margin-left: 200px;
+  z-index:3;
+  position: absolute;
+  right: 0px;
+  top: 450px;
+}
+
+.p2 {
+  border: 0px solid black;
+  margin-right: 900px;
+  margin-left: 200px;
+  z-index:3;
+  position: absolute;
+  right: 0px;
+  top: 1220px;
+}
+
+.trawlingwide {
+  margin-right: 200px;
+  margin-left: 200px;
+  z-index: 3;
+  position: absolute;
+  top: 1800px;
+  right: -20px;
+  padding: 20px;
+}
+
+.box {
+height: 130px;
+width: 580px;
+margin-bottom: 10px;
+border: 80px solid black;
+clear: both;
+z-index: 3;
+top: 2190px;
+right: 968px;
+position: absolute;
+}
+
+.p4 {
+  border: 0px solid black;
+  margin-right: 200px;
+  margin-left: 900px;
+  z-index:3;
+  position: absolute;
+  right: 0px;
+  top: 2400px;
+}
+
+
+
+.trawlinglittle {
+  margin-right: 210px;
+  margin-left: 900px;
+  z-index:5;
+  position: absolute;
+  right: 0px;
+  top: 700px;
+  width: 550px;
+  height: auto;
+}
+
+.box2 {
+height: 20px;
+width: 400px;
+margin-bottom: 0px;
+border: 60px solid black;
+clear: both;
+z-index: 7;
+top: 990px;
+right: 400px;
+position: absolute;
+}
+
+.cap2 {
+  border: 0px solid black;
+  margin-right: 910px;
+  margin-left: 900px;
+  z-index:8;
+  position: absolute;
+  top: 980px;
+  right: -490px;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+
+.box3 {
+height: 20px;
+width: 430px;
+margin-bottom: 0px;
+border: 70px solid black;
+clear: both;
+z-index: 7;
+top: 3240px;
+right: 995px;
+position: absolute;
+}
+
+.cap3 {
+  border: 0px solid black;
+  margin-right: 1400px;
+  margin-left: 250px;
+  z-index:8;
+  position: absolute;
+  top: 3230px;
+  right: -410px;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+}
+
+
+.captwo {
+  border: 0px solid black;
+  margin-right: 1005px;
+  margin-left: 170px;
+  z-index:3;
+  position: absolute;
+  right: -10px;
+  top: 2190px;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.bluebutton {
+  border: 0px solid black;
+  z-index:3;
+  position: absolute;
+  right: 270px;
+  top: 4050px;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.text_link {
+  position: absolute;
+  font-family: Gotham Ultra;
+  text-align:center;
+  right: 320px;
+  top: 4068px;
+  margin-right: 20px;
+  margin-left: 1040px;
+  z-index:3;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.text_link:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+	color: white;
+}
+
+.text_link:hover {  /* Simple hover state. You should know this by now */
+	color: orange;
+}
+
+.text_link:active{  /* CSS style at the moment of a mouse press */
+	color: red;
+
+
+}
+
+
+.chartmap {
+  margin-right: 900px;
+  margin-left: 200px;
+  z-index:5;
+  position: absolute;
+  right: 140px;
+  top: 2800px;
+  width: 350px;
+  height: auto;
+}
+
+
+.m {
+  z-index: 3;
+  position: absolute;
+  font-family: Gotham Ultra;
+  top: 3960px;
+  right: 1394px;
+
+}
+ /* button menu */
+
+.button {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: #52DAF2;
+	position: absolute;
+  right: 1400px;
+  top: 4015px;
+  z-index: 4;
+}
+
+
+.button:hover {
+  background-color: red;
+}
+
+.menu {
+ background: transparent;
+ position: absolute;
+ right: 900px;
+ top: 4050px;
+ z-index: 3;
+ display: none;
+}
+
+.red {
+ background: red;
+ z-index: 3;
+
+}
+
+.title {
+font-family: Gotham Ultra;
+text-decoration: none;
+position: absolute;
+font-size: 30px;
+z-index: 7;
+right: 300px;
+top: 40px;
+
+}
+.title:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+ color: white;
+}
+.title:hover {  /* Simple hover state. You should know this by now */
+ color: orange;
+}
+.title:active {  /* CSS style at the moment of a mouse press */
+ color: red;
+}
+
+
+
+.source {
+ position: absolute;
+ text-decoration: none;
+ font-family: Gotham Ultra;
+ font-size: 30px;
+ z-index: 7;
+ right: 29px;
+ top: 40px;
+
+}
+.source:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+ color: white;
+}
+.source:hover {  /* Simple hover state. You should know this by now */
+ color: orange;
+}
+.source:active {  /* CSS style at the moment of a mouse press */
+ color: red;
+}

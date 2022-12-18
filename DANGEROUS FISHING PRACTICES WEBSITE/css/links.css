@@ -1,0 +1,79 @@
+#container {
+	width: 960px;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+}
+
+p {
+	font-family: 'Work Sans';
+	font-size: 30px;
+	color: red;
+	width: 400px;
+	margin: 80px 0 80px 0;
+}
+
+.caption {
+	font-family: 'Work Sans';
+	font-size: 9px;
+	color: black;
+}
+
+/* All the Important CSS Styles Begins Here */
+
+.text_link {
+	font-family: 'Work Sans';
+	font-size: 18px;
+	color: gray;  /* This overrides the default blue color */
+	text-decoration: none;  /* This gets rid of the underline */
+}
+
+.text_link:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+	color: gray;
+}
+
+.text_link:hover {  /* Simple hover state. You should know this by now */
+	color: orange;
+}
+
+.text_link:active {  /* CSS style at the moment of a mouse press */
+	color: red;
+}
+
+.first_button {
+	display: block; /* You must include this line, otherwise your link will not be shown! */
+	width: 100px;
+	height: 100px;
+	background: url(../images/cage.jpg);
+	background-size: 100%;
+	color: transparent;
+}
+
+.first_button:hover {
+	font-family: 'Work Sans';
+	font-size: 12px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.second_button {
+	display: block; /* You must include this line, otherwise your link will not be shown! */
+	width: 400px;
+	height: 400px;
+	background: url(../images/dance.gif) center center;
+	background-size: 100%;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -200px 0 0 -200px;
+
+	font-family: 'Work Sans';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 65px;
+}
